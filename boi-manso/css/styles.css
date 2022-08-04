@@ -1,0 +1,103 @@
+
+html{
+    font-size: 62,5%;
+}
+body{
+    background-color: beige;
+    
+}
+
+
+
+.main-container{
+    
+    max-width: 1198px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1{
+    font-size: 2.4rem;
+    color:aqua;
+    margin-bottom: 20px;
+    
+}
+h2{
+    font-size: 2rem;
+    color:aqua;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 1.8rem;
+    color:aqua;
+    margin-bottom: 10px;
+
+}
+p{
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+header{
+    background: #fff;
+    display: block;
+    float: left;
+    padding: 20px;
+    width: 100%;
+    
+}
+nav li{
+    margin:1px 20px 1px 0;
+    padding: 10px;
+
+}
+nav li:hover{
+    background-color: azure;
+}
+nav a {
+    text-decoration: none;
+    color:rgb(39, 23, 1)
+}
+nav a:hover{
+    background-color: blueviolet;
+}
+
+section {
+    display: block;
+    float: left;
+    font-size: 1.5rem;
+    width: 100%;
+
+
+}
+
+section nav{
+    display: block;
+    float:left;
+    width: 30%;
+
+}
+
+section article{
+    display: block;
+    float: left;
+    width: 70%;
+
+}
+
+footer{
+    background-color: blue;
+    color: #fff;
+    display: block;
+    float: left;
+    width: 100%;
+
+}
+footer p {
+    color:#fff;
+    font-size: 1.4rem;
+}
+
+footer small {
+    font-size: 80%;
+    display: block;
+}
