@@ -1,9 +1,9 @@
 
 html{
-    font-size: 62,5%;
+    font-size: 60%;
 }
 body{
-    background-color: beige;
+    background-color: rgb(247, 247, 245);
     
 }
 
@@ -18,18 +18,18 @@ body{
 
 h1{
     font-size: 2.4rem;
-    color:aqua;
+    color:rgb(1, 27, 27);
     margin-bottom: 20px;
     
 }
 h2{
     font-size: 2rem;
-    color:aqua;
+    color:rgb(1, 27, 27);
     margin-bottom: 20px;
 }
 h3{
     font-size: 1.8rem;
-    color:aqua;
+    color:rgb(1, 27, 27);
     margin-bottom: 10px;
 
 }
@@ -37,11 +37,17 @@ p{
     margin-bottom: 10px;
     line-height: 1.4;
 }
+img{
+    max-width: 100%;
+    height: 100%;
+}
+
+
 header{
     background: #fff;
     display: block;
     float: left;
-    padding: 20px;
+    padding: 10px;
     width: 100%;
     
 }
@@ -51,14 +57,14 @@ nav li{
 
 }
 nav li:hover{
-    background-color: azure;
+    background-color: rgb(6, 102, 102);
 }
 nav a {
     text-decoration: none;
     color:rgb(39, 23, 1)
 }
 nav a:hover{
-    background-color: blueviolet;
+    background-color: rgb(187, 115, 253);
 }
 
 section {
@@ -100,4 +106,7 @@ footer p {
 footer small {
     font-size: 80%;
     display: block;
+}
+#tenho-interesse{
+    width: 100%;
 }
