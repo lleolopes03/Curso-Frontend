@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="./bootstrap-5.2.0-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./style/custom.css">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Mercearia Doce Alegria</h1>
+                </div>
+                <div class="col">
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contatos">Contato</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./cadastro.html">Cadastro</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <section id="sobre">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12">
+                    <h2>Sobre nós</h2>
+                    <p>Somos uma mercearia ,onde trabalhamos com os melhores produtos para servir a sua casa.</p>
+                    <p>Nosso prazer e atender sua familia com a melhor qualidade.</p>
+                    <a class="btn btn-lg btn-success">Botão</a>
+                </div>
+                <div class="container">
+        
+                    <div id="carouselExampleFade" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active ">
+                                <div class="ratio ratio-21x9">
+                                    <img src="./imagens/arroz.jpg" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-caption">
+                                    <h5>Arroz de qualidade</h5>
+                                    <a class="btn btn-light stretched-link">Clique</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="ratio ratio-21x9">
+                                    <img src="./imagens/feijao.jpg" class="d-block w-100 opacity-75" alt="...">
+                                </div>
+                                <div class="carousel-caption">
+                                    <h5 class="text-truncate col-3"> Melhores produtos da região.</h5>
+                                    <a class="btn btn-light stretched-link">Clique</a>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+
+                    <h2>Produtos</h2>
+
+                    <div class="card">
+                        <div class="ratio ratio-21x9">
+                            <img src="./imagens/arroz.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Arroz</h5>
+                            <p class="card-text">Temos diversos tamanhos,para melhor lhe atender</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1" >ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="ratio ratio-21x9">
+                            <img src="./imagens/feijao.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Feijão</h5>
+                            <p class="card-text">Temos diversos tamanhos,para melhor lhe atender</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-2" >ver produto</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="ratio ratio-21x9">
+                            <img src="./imagens/macarrao.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        
+                        <div class="card-body">
+                            <h5 class="card-title">Macarrão</h5>
+                            <p class="card-text">Temos diversos tamanhos,para melhor lhe atender</p>
+                            <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-3" >ver produto</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section id="contato">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <h2>Contato</h2>
+                    <p>Ficou interessado? Preencha os campos do formulário para receber uma cotação.</p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <form class="form">
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="nome" placeholder="digite seu nome">
+                        </div>
+
+                        <div class="input-group">
+                            <input class="form-control" type="text" name="email" placeholder="digite seu email">
+                        </div>
+
+                        <div class="input-group">
+                            <textarea  class="form-control" name="" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-lg btn-success">Solicitar Cotação</button>
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="modal fade" id="modal-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 1</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1 KG</td>
+                                <td>R$8,00</td>
+                            </tr>
+                            <tr>
+                                <td>2 kg</td>
+                                <td>R$ 15,00</td>
+                            </tr>
+                            <tr>
+                                <td>5 kg</td>
+                                <td>R$ 27,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal fade" id="modal-2">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 2</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>500 G</td>
+                                <td>R$ 2,00</td>
+                            </tr>
+                            <tr>
+                                <td>1 KG</td>
+                                <td>R$ 4,00</td>
+                            </tr>
+                            <tr>
+                                <td>2 KG</td>
+                                <td>R$ 7,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="modal fade" id="modal-3">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Produto 3</h5>
+                    <button class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h6>Confira o tamanho e os preços</h6>
+                    <table class="table table-hover table-striped">
+                        <thead>
+                            <tr>
+                                <th>Tamanho</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>500 G</td>
+                                <td>R$ 3,00</td>
+                            </tr>
+                            <tr>
+                                <td>1 KG</td>
+                                <td>R$ 5,00</td>
+                            </tr>
+                            <tr>
+                                <td>2 KG</td>
+                                <td>R$ 9,00</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var myCarousel = document.querySelector('#carouselExampleFade')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            pause: false,
+            interval: 5000
+        })
+    </script>
+</body>
+</html>
