@@ -10,6 +10,7 @@ import image from 'gulp-image';
 import stripCss from 'gulp-strip-css-comments';
 import htmlmin from 'gulp-htmlmin';
 import babel from 'gulp-babel';
+import sass from 'gulp-sass';
 import browserSync from ('browser-sync').create();
 import reload from browserSync.reload;
 
@@ -20,7 +21,7 @@ function tarefasCSS(cb) {
             './node_modules/@fortawesome/fontawesome-free/css/fontawesome.css',
             './vendor/owl/css/owl.css',
             './vendor/jquery-ui/jquery-ui.css',
-            './src/css/style.css'
+            
         ])
         .pipe(stripCss())                   // remove comentários css   
         .pipe(concat('styles.css'))         // mescla arquivos
@@ -30,6 +31,12 @@ function tarefasCSS(cb) {
 
     cb()
 
+}
+function tarefassass(cb){
+    gulp.src('./src/scss/**/*.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('./dist.css'))
+    cb()
 }
 
 function tarefasJS(callback){
@@ -100,10 +107,11 @@ function end(cb){
 }
 
 // series x parallel
-const process = parallel( tarefasHTML, tarefasJS, tarefasCSS, end)
+const process = parallel( tarefasHTML, tarefasJS,tarefassass, tarefasCSS, end)
 
 exports.styles = tarefasCSS
 exports.scripts = tarefasJS
 exports.images = tarefasImagem
+exports.sass = tarefassass
 
 exports.default = process
