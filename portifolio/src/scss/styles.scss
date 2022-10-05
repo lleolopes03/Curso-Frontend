@@ -9,6 +9,14 @@ $font-size-nav: 1.8rem;
 @import 'fonts';
 @import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
 @import 'nav';
+@viewport { 
+width: device-width;
+zomm:1;
+}
+
+*{
+    box-sizing: border-box;
+}
 
 html {
     font-size: 62.5%;
@@ -65,6 +73,13 @@ section {
     flex-flow: column;
     margin: 0 auto;
     max-width: 90vw;
+
+    @media (max-width:768px){
+        max-width:99%;
+    }
+    @media(min-width: 1024px){
+        background-color: #f58220;
+    }
 }
 
 @import 'animations';
@@ -74,3 +89,4 @@ section {
 @import 'vitrine';
 @import 'steps';
 @import 'footer';
+@import 'responsive'
