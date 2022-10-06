@@ -1,4 +1,6 @@
 import months from './months.js'
+import animais from './animais.js'
+
 
 // Filtra meses
 const filteredMonths = months.filter( (months)=> {
@@ -9,16 +11,27 @@ console.log(filteredMonths)
 
 let toPrint = ''
 
+const filteredAnimais =animais.filter ((animais) =>{
+     return animais ===animal
+})
+console.log(filteredAnimais)
+
+let toprint =''
+
 // Lista meses
 filteredMonths.forEach(month => {
    toPrint += month.month + ', '
 });
+filteredAnimais.forEach(animal =>{
+    toPrint += animal.animal + ','
+})
 
 // for( let c = 0; c < filteredMonths.length; c++ ){
 
 // }
 
 let meses = [30,30,30] // array comum
+let tipo = [Herbivoro]
 
 // Reduce - função com todos os itens do array e devolve um valor único
 let sumMonthDays = filteredMonths.reduce( (prev, next) => {

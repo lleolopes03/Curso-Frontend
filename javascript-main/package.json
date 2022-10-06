@@ -4,8 +4,7 @@
   "description": "- Fórmula / Molde dinâmico - Coleção de propriedas (atribuitos) - Associáveis (chave / valor) - Relação com objetos da vida real - Atributos: cor, forma, material, peso, identificação, etc.",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^5.1.3",
-    "typescript": "^4.5.2"
+    "bootstrap": "^5.1.3"
   },
   "devDependencies": {
     "eslint": "^8.3.0",
@@ -13,7 +12,8 @@
     "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.27.1",
-    "eslint-plugin-react-hooks": "^4.3.0"
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "typescript": "^4.8.4"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
