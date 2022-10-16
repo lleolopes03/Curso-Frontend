@@ -1,0 +1,38 @@
+.col{
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+.image{
+    margin: 10rem;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center 
+    
+
+}
+h2,p,button{
+    margin-left: 2rem;
+}
+
+.localization{
+   
+    margin-left: 12rem;
+   
+}
+h3,h4{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 700px; 
+    margin: 3rem;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.trabalho{
+    font-family: 'Inter', sans-serif;
+    background-color: #476ECC;
+    width: 80px;
+    height: 80px;
+}
+    
+
+
