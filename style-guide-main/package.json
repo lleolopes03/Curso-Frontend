@@ -1,5 +1,6 @@
 {
   "name": "style-guide-main",
+  "homepage": "https://github.com/lleolopes03/lleolopes03.github.io/style-guide-main",
   "version": "1.0.1",
   "description": "style-guide",
   "main": "index.js",
@@ -825,6 +826,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Leandro Lopes",
   "license": "ISC"
 }
