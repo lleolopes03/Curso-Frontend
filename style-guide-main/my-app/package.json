@@ -1,8 +1,8 @@
 {
-  "name": "style-guide-mains",
-  "homepage": "https://github.com/lleolopes03/lleolopes03.github.io/style-guide-main",
+  "name": "style-guide-main",
+  "homepage": "https://lleolopes03.github.io/curso-frontend/style-guide-main/",
   "version": "0.1.1",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
