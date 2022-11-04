@@ -1,8 +1,8 @@
 {
-  "name": "app",
-  "version": "0.1.0",
-  "homepage": "https://lleolopes03.github.io/Curso-Frontend/EXPORT/",
-  "private": true,
+  "name": "export",
+  "version": "0.1.1",
+  "homepage": "https://lleolopes03.github.io/Curso-Frontend/export/",
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
